@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+scholarly
+playwright
+pdfminer.six
+pdfplumber
+rapidfuzz
+openpyxl
+jupyter
+nbconvert

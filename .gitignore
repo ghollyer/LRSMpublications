@@ -1,0 +1,27 @@
+# Secrets — EZproxy session cookies (PennKey). Never commit.
+ezproxy_cookies.json
+
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.claude/settings.local.json
+
+# Downloaded full text (copyrighted, ~2.8 GB) — regenerate with src/fetch_fulltext.py
+pdfs/
+Manual Downloads/
+fulltext/
+
+# Local run state tied to the files above
+fetch_progress.json
+fulltext_progress.json
+
+# Old packaged copies / scratch
+grant_scraper/
+grant_scraper.zip
+*.epub
+crossref_report_old.csv
